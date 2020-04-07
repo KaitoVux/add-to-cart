@@ -32,7 +32,7 @@ const Menu = (props) => {
             <NavItem>
               <CartContext.Consumer>
                 {({ cartItems }) => (
-                  <NavLink href="/products">Cart ({cartItems.length})</NavLink>
+                  <NavLink href="/products">Cart ({ cartItems.length})</NavLink>
                 )}
               </CartContext.Consumer>
             </NavItem>
